@@ -1,0 +1,64 @@
+.heading {
+  @include heading;
+  @include heading-deskription;
+  @media (max-width: 987px) {
+   html {
+     font-size: 10px;
+   }
+ }
+}
+.awesome_card_wrap {
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   margin: 0 -15px;
+
+   @media (max-width: 1150px) {
+      justify-content: center;
+    }
+
+   .awesome_card {
+      width: 350px;
+      margin: 25px 15px;
+
+      .awesome_card_img {
+         width: 70px;
+         height: 70px;
+         border: 1px solid $red;
+         border-radius: 50%;
+         margin: auto;
+         overflow: hidden;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         margin-bottom: 20px;
+         &:hover{
+            transform: rotate(45deg);
+         }
+         i {
+            color: $red;
+            
+         }
+         
+
+      
+      }
+      
+      .awesome_card_title {
+         width: 189px;
+         font-size: 20px;
+         color: $grey;
+         margin: auto;
+         text-align: center;
+         margin-bottom: 20px;
+      }
+      .awesome_card_description {
+         
+         width: 350px;
+         p {
+            text-align: center;
+            color: $darkgrey;
+         }
+      }
+   }
+}

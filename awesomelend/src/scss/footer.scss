@@ -1,0 +1,36 @@
+.footer {
+   background-color: $darkgrey;
+   padding: 15px 0;
+}
+.footer-wrap {
+   width: 320px;
+   margin: 0 auto;
+}
+.footer-icons-list {
+  display: flex; 
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 10px;
+
+}
+.footer-icon-item {
+   i{
+      color: $silver;
+      font-size: $_20px;
+   }
+   a{
+      transition: 0.2s;
+      & :hover {
+         color:$coral;
+      }
+   }
+}
+.footer-description {
+   font-family: 'Open sans';
+   font-weight: 400;
+   font-size: $_12px;
+   line-height: 16px;
+   text-align: center;
+   color: $silver;
+}

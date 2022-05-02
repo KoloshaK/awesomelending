@@ -1,0 +1,41 @@
+@import "colors.scss";
+@import "variables.scss";
+@import "mixins.scss";
+@import "cdn.scss";
+@import "header.scss";
+@import "firstscreen.scss";
+@import "socialmedia.scss";
+@import "awesome.scss";
+@import "pricing.scss";
+@import "customers.scss";
+@import "footer.scss";
+@import "axure.scss";
+@import "contact.scss";
+@import "tabs.scss";
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+html {
+  font-size: 20px;
+  font-family: 'Open Sans', 'Raleway', sans-serif;
+}
+section {
+  padding: 50px 0;
+}
+.container {
+  max-width: 1170px;
+  margin: auto;
+  padding: 0 15px;
+  position: relative;
+  z-index: 2;
+}
+p {
+  font-size: $_14px;
+  font-weight: 400;
+}

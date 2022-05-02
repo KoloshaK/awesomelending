@@ -1,0 +1,71 @@
+.pricing{
+   background-color: $lightsilver;
+}
+.pricing_wrap {
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   margin: 0 -15px;
+
+   @media (max-width: 1200px) {
+      justify-content: center;
+    }
+}
+
+.pricing_list {
+   width: 340px;
+   margin: 0 15px;
+
+   @media (max-width: 1200px) {
+      
+      margin-bottom: 30px;
+    }
+}
+
+.pricing_item_tariff{
+   background-color: $grey;
+   text-align: center;
+   color: $white;
+   font-size: $_20px;
+   line-height: 50px;
+   margin-bottom: 1px;
+   &:hover{
+      transform: scale(1.1);
+   }
+}
+
+.pricing_item_price {
+   background-color: $grey;
+   text-align: center;
+   color: $white;
+   font-size: $_36px;
+   line-height: 100px;
+   margin-bottom: 1px;
+   &:hover{
+      transform: scale(1.1);
+   }
+}
+
+.pricing_item_free {
+   background-color: $grey;
+   text-align: center;
+   color: $white;
+   font-size: $_14px;
+   line-height: 50px;
+   margin-bottom: 1px;  
+   &:hover{
+      transform: scale(1.1);
+   }
+}
+
+.pricing_item_list {
+   text-align: center;
+   margin-bottom: 1px;
+   background-color: $white;
+   color: $silver;
+   font-size: $_14px;
+   line-height: 40px;
+   &:hover{
+      transform: scale(1.1);
+   }
+}
